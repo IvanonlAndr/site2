@@ -1,0 +1,376 @@
+@media(max-width:1130px) {
+    .container {
+        max-width: 870px;
+    }
+
+    .section__about {
+        padding-top: 180px;
+        margin-bottom: 300px;
+
+        &-inner {
+            flex-direction: column;
+        }
+
+        &-info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &-circle {
+            margin: 0 auto 20px;
+        }
+
+        &-text-inner {
+            margin-bottom: 48px;
+        }
+
+    }
+
+    .company__info {
+        &-louis {
+            width: 300px;
+            height: 300px;
+        }
+
+        &-block {
+            width: 670px;
+            height: 379px;
+            padding-top: 43px;
+        }
+
+        &-header {
+            margin-bottom: 24px;
+        }
+
+        &-parh {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media(max-width:890px) {
+    .container {
+        max-width: 685px;
+    }
+
+    .header {
+        background-position: top 71px left -90px, bottom 109px right -45px, bottom center;
+        min-height: 540px;
+
+        &__apply {
+            font-size: 16px;
+            line-height: 32px;
+        }
+
+        &__logo-inner {
+            padding-top: 32px;
+        }
+
+        &__info {
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 60px;
+            width: 573px;
+            margin-bottom: 39px;
+        }
+
+        &__more {
+            width: 133px;
+            height: 55px;
+        }
+
+        &__phone {
+            width: 514px;
+            height: 296px;
+        }
+    }
+
+    .section__about {
+        margin-bottom: 100px;
+    }
+
+    .company__info {
+
+        &-inner {
+            min-height: 526px;
+        }
+
+        &-block {
+            width: 514px;
+            height: 375px;
+            padding: 56px;
+            padding-top: 46px;
+            background-position: bottom -105px right 12px;
+        }
+
+        &-header {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+        &-parh {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            width: 402px;
+        }
+
+        & .header__more {
+            width: 172px;
+        }
+
+        &-louis {
+            width: 281px;
+            height: 281px;
+        }
+
+        &-ovals {
+            position: absolute;
+            bottom: -105px;
+            right: 12px;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .section__about {
+        padding-top: 203px;
+        min-height: 777px;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        &-circle {
+            margin-right: 32px;
+        }
+
+        &-header {
+            text-align: left;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        &-parh {
+            text-align: left;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            width: 493px;
+        }
+
+        &-info:nth-child(3) {
+            margin-bottom: 56px;
+        }
+    }
+
+    .company__info {
+        margin-bottom: 80px;
+
+        &-inner {
+            min-height: 582px;
+            text-align: center;
+        }
+
+        &-block {
+            transform: translateX(-50%);
+            left: 50%;
+        }
+
+        &-header {
+            text-align: center;
+        }
+
+        &-parh {
+            text-align: center;
+        }
+
+        & .header__more {
+            margin: 0 auto;
+        }
+
+        &-ovals {
+            display: none;
+        }
+    }
+
+    .footer {
+        margin-bottom: 121px;
+    }
+}
+
+@media(max-width:700px) {
+    .container {
+        max-width: 539px;
+    }
+
+    .header {
+        background-image: url(../img/header__bg.svg);
+        background-position: bottom center;
+
+        &__info {
+            width: 555px;
+        }
+    }
+
+    .company__info {
+
+        &-block {
+            background-image: url(none);
+            margin: 0 auto;
+        }
+
+        &-louis {
+            width: 281px;
+            height: 281px;
+            top: -151px;
+        }
+    }
+}
+
+@media(max-width:605px) {
+    .container {
+        max-width: 465px;
+
+    }
+
+    .header {
+        background-image: url(../img/header__bg.svg);
+        background-position: bottom center;
+
+        &__info {
+            width: 485px;
+        }
+
+        &__phone {
+            width: 456px;
+            height: 263px;
+        }
+    }
+
+    .section__about {
+        &-info {
+            flex-direction: column;
+        }
+
+        &-circle {
+            margin-right: auto;
+        }
+
+        &-header {
+            text-align: center;
+        }
+
+        &-parh {
+            width: 426px;
+            text-align: center;
+        }
+    }
+
+    .company__info {
+
+        &-louis {
+            top: -196px;
+        }
+
+        &-block {
+            width: 426px;
+            padding: 46px;
+        }
+
+        &-header {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        &-parh {
+            width: 343px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        & .header__more {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media(max-width:525px) {
+    .container {
+        max-width: 404px;
+    }
+
+    .header {
+        min-height: 481px;
+
+        &__info {
+            width: 390px;
+        }
+
+        &__phone {
+            width: 320px;
+            height: 184px;
+            bottom: -91px;
+            transform: translateX(calc(-50% + 9px));
+            left: 50%;
+        }
+    }
+
+    .section__about {
+        min-height: 984px;
+        padding-top: 155px;
+    }
+}
+
+@media(max-width:445px) {
+    .container {
+        max-width: 343px;
+    }
+
+    .header {
+        &__info {
+            font-size: 50px;
+            line-height: 50px;
+            width: 343px;
+        }
+    }
+
+    .section__about{
+        margin-bottom: 110px;
+        &-circle{
+            margin-bottom: 24px;
+        }
+
+        &-parh{
+            width: 343px;
+        }
+    }
+
+    .company__info {
+        margin-bottom: 74px;
+
+        &-inner{
+            min-height: 603px;
+        }
+
+        &-parh{
+            width: 281px;
+        }
+
+        &-block{
+            width: 343px;
+        }
+    }
+
+    .footer {
+        margin-bottom: 63px;
+    }
+}

@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+// @import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+// @import url(../fonts/AnyConv.com__Fraunces9ptS000-SemiBold.woff2);
+@font-face {
+    font-family: 'Fraunces 144pt';
+    src:
+        url('../fonts/Fraunces144ptS000-SemiBold.woff2') format('woff2'),
+        url('../fonts/Fraunces144ptS000-SemiBold.woff') format('woff'),
+        url('../fonts/Fraunces144ptS000-SemiBold.ttf') format('truetype');
+}
+
+
+.header {
+    background-image: url(../img/ovals__header-1.svg), url(../img/oval__header-2.svg), url(../img/header__bg.svg);
+    background-repeat: no-repeat;
+    background-size: auto, auto, cover;
+    background-position: top 116px left, bottom 235px right, bottom center;
+    min-height: 730px;
+    position: relative;
+    background-color: #FCF8FF;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__logo-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 56px;
+        margin-bottom: 65px;
+    }
+
+    &__inner-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__apply {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+        border-bottom: 3px solid #44FFA1;
+    }
+
+    &__apply:hover{
+        color: #44FFA1;
+    }
+
+    &__info {
+        font-family: 'Fraunces 144pt';
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 635px;
+        margin: 0 auto;
+        margin-bottom: 37px;
+    }
+
+    span {
+        border-bottom: 3px solid #44FFA1;
+    }
+
+
+    &__more {
+        width: 161px;
+        height: 61px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #44FFA1;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;
+        color: #24053E;
+    }
+
+    &__more:hover {
+        border: 2px solid #44FFA1;
+        background-color: transparent;
+        color: #44FFA1;
+    }
+
+    &__phone {
+        position: absolute;
+        bottom: -165px;
+        transform: translateX(calc(-50% + 24px));
+        left: 50%;
+    }
+}
+
+.section__about {
+    background-image: url(../img/about__bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding-top: 255px;
+    min-height: 734px;
+    margin-bottom: 110px;
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-circle {
+        font-family: 'Fraunces 144pt';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        color: #24053E;
+        border: 1px solid #584D62;
+        border-radius: 30.5px;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 56px;
+    }
+
+    &-header {
+        font-family: 'Fraunces 144pt';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #24053E;
+        margin-bottom: 28px;
+    }
+
+    &-parh {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #24053E;
+        width: 354px;
+        margin: 0 auto;
+    }
+}
+
+.company__info {
+    margin-bottom: 121px;
+
+    &-inner {
+        position: relative;
+        min-height: 586px;
+    }
+
+    &-block {
+        width: 730px;
+        height: 413px;
+        background: #24053E;
+        padding: 64px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &-header {
+        font-family: 'Fraunces 144pt';
+        font-size: 56px;
+        line-height: 64px;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    &-parh {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    & .header__more {
+        width: 190px;
+    }
+
+    &-ovals {
+        position: absolute;
+        bottom: -61px;
+        right: 72px;
+    }
+}
+
+.footer {
+    margin-bottom: 110px;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__logo {
+        margin-bottom: 57px;
+    }
+
+    &__menu-items {
+        display: flex;
+        width: 116px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu-item a:hover .footer__icon {
+        fill: #24053E;
+    }
+
+    &__icon {
+        fill: #584D62;
+    }
+}
